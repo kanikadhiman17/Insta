@@ -1,5 +1,6 @@
 package com.java.zolo.instagram.domain.dto;
 
+import com.java.zolo.instagram.domain.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UsersDTO {
+public class UserDTO {
     private String userName;
     private String emailId;
     private String password;

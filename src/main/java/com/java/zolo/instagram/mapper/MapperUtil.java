@@ -1,10 +1,10 @@
 package com.java.zolo.instagram.mapper;
 
-import com.java.zolo.instagram.domain.dto.UsersDTO;
+import com.java.zolo.instagram.domain.dto.UserDTO;
 import com.java.zolo.instagram.domain.model.User;
 
 public class MapperUtil {
-    public static User buildUserModel(UsersDTO usersDTO){
+    public static User buildUserModel(UserDTO usersDTO){
         User user = new User();
         user.setUserName(usersDTO.getUserName());
         user.setEmailId(usersDTO.getEmailId());
