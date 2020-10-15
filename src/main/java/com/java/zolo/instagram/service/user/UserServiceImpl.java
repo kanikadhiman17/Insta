@@ -3,12 +3,12 @@ package com.java.zolo.instagram.service.user;
 import com.java.zolo.instagram.domain.criteria.BaseSpecification;
 import com.java.zolo.instagram.domain.criteria.SearchCriteria;
 import com.java.zolo.instagram.domain.criteria.SearchOperation;
-import com.java.zolo.instagram.domain.dto.UserDTO;
-import com.java.zolo.instagram.domain.dto.UserFilterDTO;
+import com.java.zolo.instagram.domain.dto.user.UserDTO;
+import com.java.zolo.instagram.domain.dto.user.UserFilterDTO;
 import com.java.zolo.instagram.domain.model.User;
-import com.java.zolo.instagram.mapper.MapperUtil;
 import com.java.zolo.instagram.repository.UsersRepository;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,22 +18,21 @@ import java.util.stream.Collectors;
 @Service
 public class UserServiceImpl implements UserService {
     public final UsersRepository usersRepository;
+    ModelMapper modelMapper = new ModelMapper();
 
     public UserServiceImpl(UsersRepository usersRepository) {
         this.usersRepository = usersRepository;
     }
     @Override
     public UserDTO createUser(UserDTO userRequest) {
-        //ModelMapper modelMapper = new ModelMapper();
-        //usersRepository.save(modelMapper.map(userRequest, User.class));
-        usersRepository.save(MapperUtil.buildUserModel(userRequest));
+        modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+        usersRepository.save(modelMapper.map(userRequest, User.class));
         return userRequest;
     }
 
     @Override
     public Optional<UserDTO> getUserFromId(long userId) {
         Optional<User> optionalUser = usersRepository.findById(userId);
-        ModelMapper modelMapper = new ModelMapper();
         return optionalUser.map(user -> Optional.of(modelMapper.map(user, UserDTO.class))).orElse(null);
     }
 
@@ -44,7 +43,6 @@ public class UserServiceImpl implements UserService {
         userCriteria.add(new SearchCriteria(User.class.getDeclaredField("emailId").getName(), filterDTO.getEmailId(), SearchOperation.MATCH));
         userCriteria.add(new SearchCriteria(User.class.getDeclaredField("profileName").getName(), filterDTO.getProfileName(), SearchOperation.MATCH));
         List<User> matchedUsers = usersRepository.findAll(userCriteria);
-        ModelMapper modelMapper = new ModelMapper();
         return matchedUsers.stream().map(p -> modelMapper.map(p, UserDTO.class))
                 .collect(Collectors.toList());
     }
@@ -80,7 +78,6 @@ public class UserServiceImpl implements UserService {
         }
 
         usersRepository.save(user);
-        ModelMapper modelMapper = new ModelMapper();
         return Optional.of(modelMapper.map(user, UserDTO.class));
     }
 

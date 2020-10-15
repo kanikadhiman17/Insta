@@ -2,8 +2,8 @@ package com.java.zolo.instagram.controller;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.java.zolo.instagram.domain.dto.UserDTO;
-import com.java.zolo.instagram.domain.dto.UserFilterDTO;
+import com.java.zolo.instagram.domain.dto.user.UserDTO;
+import com.java.zolo.instagram.domain.dto.user.UserFilterDTO;
 import com.java.zolo.instagram.exceptions.IErrors;
 import com.java.zolo.instagram.service.user.UserService;
 import com.zolo.alpha.api.ResponseBody;

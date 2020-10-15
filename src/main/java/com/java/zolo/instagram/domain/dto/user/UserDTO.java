@@ -1,6 +1,5 @@
-package com.java.zolo.instagram.domain.dto;
+package com.java.zolo.instagram.domain.dto.user;
 
-import com.java.zolo.instagram.domain.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

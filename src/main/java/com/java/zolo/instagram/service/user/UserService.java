@@ -1,7 +1,7 @@
 package com.java.zolo.instagram.service.user;
 
-import com.java.zolo.instagram.domain.dto.UserDTO;
-import com.java.zolo.instagram.domain.dto.UserFilterDTO;
+import com.java.zolo.instagram.domain.dto.user.UserDTO;
+import com.java.zolo.instagram.domain.dto.user.UserFilterDTO;
 import java.util.List;
 import java.util.Optional;
 

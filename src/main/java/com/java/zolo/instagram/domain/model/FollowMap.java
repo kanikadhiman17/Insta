@@ -3,6 +3,7 @@ package com.java.zolo.instagram.domain.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
@@ -16,6 +17,7 @@ import java.sql.Timestamp;
 @Entity
 @Table(name = "follow_map", uniqueConstraints=
 @UniqueConstraint(columnNames={"fk_target_user", "fk_follower"}, name = "oneFollowPerUser"))
+@Accessors(chain = true)
 public class FollowMap {
 
     @Id
