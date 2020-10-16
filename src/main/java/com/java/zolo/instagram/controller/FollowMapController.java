@@ -6,10 +6,8 @@ import com.java.zolo.instagram.exceptions.IErrors;
 import com.java.zolo.instagram.service.followmap.FollowMapService;
 import com.zolo.alpha.api.ResponseBody;
 import com.zolo.alpha.api.ResponseGenerator;
-import org.apache.commons.lang3.text.translate.NumericEntityUnescaper;
 import org.springframework.web.bind.annotation.*;
 
-import javax.crypto.spec.OAEPParameterSpec;
 import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;

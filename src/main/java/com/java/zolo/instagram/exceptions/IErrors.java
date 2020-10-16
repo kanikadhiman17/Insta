@@ -23,4 +23,10 @@ public class IErrors {
     public static final Error FAILED_TO_FETCH_FOLLOWING = new Error("Failed to fetch following",1010);
     public static final Error FAILED_TO_FETCH_FOLLOWERS = new Error("Failed to fetch followers",1011);
     public static final Error FAILED_TO_UNFOLLOW = new Error("Failed to unfollow",1012);
+
+    // Posts
+    public static final Error FAILED_TO_UPLOAD_POST = new Error("Failed to upload post",1013);
+    public static final Error FAILED_TO_FETCH_POST = new Error("Failed to fetch posts", 1014);
+    public static final Error FAILED_TO_UPDATE_POST = new Error("Failed to update post", 1015);
+    public static final Error FAILED_TO_DELETE_POST = new Error("Failed to delete post", 1016);
 }

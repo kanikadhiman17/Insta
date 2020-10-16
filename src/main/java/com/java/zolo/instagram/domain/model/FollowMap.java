@@ -37,4 +37,5 @@ public class FollowMap {
     @CreationTimestamp
     @Column(name = "followed_at")
     private Timestamp followedAt;
+
 }

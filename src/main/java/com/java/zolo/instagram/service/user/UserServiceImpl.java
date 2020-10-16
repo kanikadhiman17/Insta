@@ -87,10 +87,8 @@ public class UserServiceImpl implements UserService {
         if(optionalUser.isEmpty()) {
             return Optional.empty();
         }
-
         User user = optionalUser.get();
         usersRepository.deleteById(userId);
         return Optional.of("Sorry to let you go " + user.getProfileName());
-
     }
 }
