@@ -50,9 +50,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public Optional<UserDTO> updateUser(long userId, UserDTO userDTO) {
         Optional<User> optionalUser = usersRepository.findById(userId);
-        if(optionalUser.isEmpty()) {
+        if(optionalUser.isEmpty())
             return Optional.empty();
-        }
 
         User user = optionalUser.get();
         if (userDTO.getUserName() != null) {
@@ -84,9 +83,8 @@ public class UserServiceImpl implements UserService {
     @Override
     public Optional<String> deleteUser(long userId) {
         Optional<User> optionalUser = usersRepository.findById(userId);
-        if(optionalUser.isEmpty()) {
+        if(optionalUser.isEmpty())
             return Optional.empty();
-        }
         User user = optionalUser.get();
         usersRepository.deleteById(userId);
         return Optional.of("Sorry to let you go " + user.getProfileName());

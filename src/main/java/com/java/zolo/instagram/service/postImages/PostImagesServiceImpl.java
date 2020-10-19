@@ -33,12 +33,9 @@ public class PostImagesServiceImpl  implements PostImagesService {
     @Transactional
     public Optional<PostImagesDTO> uploadPostAndImages(PostImagesDTO postImagesDTO, long userId) {
         Optional<User> user = usersRepository.findById(userId);
-        if(user.isEmpty())
-            return Optional.empty();
         // TODO: getDeclaredFields
         if(postImagesDTO.getImageURLs().size()==0)
             return Optional.empty();
-
         // Save Post
         Posts post = postsRepository.save(new Posts()
                 .setUser(user.get())

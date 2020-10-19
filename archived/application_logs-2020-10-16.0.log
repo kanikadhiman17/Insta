@@ -1,0 +1,292 @@
+00:04:28.705 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m12s791ms).
+00:07:53.790 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s71ms).
+00:13:40.052 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:13:40.059 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:13:50.731 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35570 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+00:13:50.732 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+00:13:52.719 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:13:53.120 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:13:54.338 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.913 seconds (JVM running for 9.471)
+00:17:54.074 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:17:54.081 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:20:50.527 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35604 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+00:20:50.528 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+00:20:52.325 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:20:52.774 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:20:53.945 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.694 seconds (JVM running for 9.243)
+00:29:27.700 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:29:27.710 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:32:07.037 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35663 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+00:32:07.038 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+00:32:08.877 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:32:09.321 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:32:10.458 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.717 seconds (JVM running for 9.29)
+00:33:05.377 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:33:05.383 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:33:15.136 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35670 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+00:33:15.138 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+00:33:16.962 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:33:17.360 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:33:18.511 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.657 seconds (JVM running for 9.209)
+00:33:43.136 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:33:43.143 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:33:53.161 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35680 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+00:33:53.162 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+00:33:54.846 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:33:55.223 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:33:56.317 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.433 seconds (JVM running for 8.959)
+00:35:41.925 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:35:41.939 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:35:51.925 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35689 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+00:35:51.926 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+00:35:53.695 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:35:54.053 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:35:55.204 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.556 seconds (JVM running for 9.071)
+00:36:00.820 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:36:00.827 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:36:09.154 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35694 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+00:36:09.155 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+00:36:10.680 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:36:11.163 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:36:12.296 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.399 seconds (JVM running for 8.884)
+00:36:37.912 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:36:37.917 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:36:47.313 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35700 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+00:36:47.314 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+00:36:48.963 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:36:49.294 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:36:50.381 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.335 seconds (JVM running for 8.845)
+01:09:48.368 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:09:48.375 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:10:04.270 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 35839 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+01:10:04.273 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+01:10:06.100 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:10:06.461 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:10:07.680 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.684 seconds (JVM running for 9.308)
+04:01:32.565 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h48m25s919ms).
+05:49:50.596 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h48m18s101ms).
+08:00:15.210 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h10m24s612ms).
+08:19:41.495 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m26s289ms).
+09:12:17.710 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m36s206ms).
+09:23:12.111 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:23:12.184 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:23:35.065 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 36135 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+09:23:35.067 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+09:23:37.117 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:23:37.573 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:23:38.969 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 4.234 seconds (JVM running for 10.0)
+09:24:17.267 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:24:17.272 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:24:36.476 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 36142 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+09:24:36.477 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+09:24:38.337 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:24:38.667 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:24:39.779 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.588 seconds (JVM running for 9.115)
+10:13:46.911 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m8s64ms).
+10:26:40.504 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:26:40.510 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:28:14.418 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 36306 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+10:28:14.419 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+10:28:16.183 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:28:16.585 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:28:17.745 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.602 seconds (JVM running for 9.133)
+10:31:59.539 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:31:59.561 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:32:15.832 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 36356 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+10:32:15.833 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+10:32:17.635 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:32:18.011 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:32:19.228 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.686 seconds (JVM running for 9.297)
+10:38:52.410 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:38:52.419 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:39:03.014 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 36388 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+10:39:03.016 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+10:39:04.799 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:39:05.140 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:39:06.317 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.601 seconds (JVM running for 9.177)
+11:42:32.820 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m27s455ms).
+11:50:49.589 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m16s771ms).
+12:16:05.559 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m15s969ms).
+12:17:51.305 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m45s747ms).
+12:29:37.373 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m16s46ms).
+13:37:48.006 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 36963 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+13:37:48.008 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+13:37:49.847 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:37:50.316 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:37:51.723 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 4.009 seconds (JVM running for 9.545)
+13:38:03.478 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:38:03.486 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:39:10.850 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 36984 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+13:39:10.851 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+13:39:12.702 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:39:13.161 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:39:14.395 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.835 seconds (JVM running for 9.379)
+16:03:42.596 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h19m59s316ms).
+16:05:26.863 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:05:26.874 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:26:50.547 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 37303 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+17:26:50.549 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+17:26:52.426 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:26:52.845 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:26:53.991 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.733 seconds (JVM running for 9.346)
+17:33:49.924 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:33:59.388 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 37338 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+17:33:59.389 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+17:34:01.252 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:34:01.644 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:34:02.818 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.722 seconds (JVM running for 9.277)
+17:54:14.835 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:54:14.849 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:55:44.187 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 37430 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+17:55:44.189 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+17:55:46.116 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:55:46.475 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:55:47.632 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.738 seconds (JVM running for 9.29)
+17:57:28.270 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:57:28.277 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

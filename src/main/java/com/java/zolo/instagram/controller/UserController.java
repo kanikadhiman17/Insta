@@ -10,7 +10,6 @@ import com.zolo.alpha.api.ResponseBody;
 import com.zolo.alpha.api.ResponseGenerator;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
@@ -26,7 +25,7 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public ResponseBody createUser(@Valid @RequestBody UserDTO userRequest) {
+    public ResponseBody createUser(@RequestBody UserDTO userRequest) {
         String errorCode = IErrors.FAILED_TO_CREATE_USER.getErrorCode();
         try {
             return ResponseGenerator.createSuccessResponse(userService.createUser(userRequest));
@@ -37,7 +36,7 @@ public class UserController {
     }
 
     @GetMapping("/users/{userId}")
-    public ResponseBody fetchUserFromId(@Valid @PathVariable long userId) {
+    public ResponseBody fetchUserFromId(@PathVariable long userId) {
         String errorCode = IErrors.FAILED_TO_FETCH_USER_FROM_ID.getErrorCode();
         try {
             return ResponseGenerator.createSuccessResponse(Objects.requireNonNullElseGet(
@@ -63,7 +62,7 @@ public class UserController {
     }
 
     @PatchMapping("/users/{userId}")
-    public ResponseBody updateUser(@Valid @PathVariable long userId, @RequestBody UserDTO userDTO) {
+    public ResponseBody updateUser(@PathVariable long userId, @RequestBody UserDTO userDTO) {
         String errorCode = IErrors.FAILED_TO_UPDATE_USER.getErrorCode();
         try {
             Optional<UserDTO> optionalUserDTO= userService.updateUser(userId, userDTO);
@@ -76,7 +75,7 @@ public class UserController {
     }
 
     @DeleteMapping("/users/{userId}")
-    public ResponseBody deleteUser(@Valid @PathVariable long userId) {
+    public ResponseBody deleteUser(@PathVariable long userId) {
         String errorCode = IErrors.FAILED_TO_DELETE_USER.getErrorCode();
         try {
             Optional<String> deleteUser = userService.deleteUser(userId);

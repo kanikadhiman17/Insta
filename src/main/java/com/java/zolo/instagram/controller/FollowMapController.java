@@ -8,7 +8,6 @@ import com.zolo.alpha.api.ResponseBody;
 import com.zolo.alpha.api.ResponseGenerator;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,9 +22,11 @@ public class FollowMapController {
     }
 
     @PostMapping("/users/{userId}/follow/{targetId}")
-    public ResponseBody followEvent(@Valid @PathVariable long userId, @PathVariable long targetId) {
+    public ResponseBody followEvent(@PathVariable long userId, @PathVariable long targetId) {
         String errorCode = IErrors.FAILED_TO_FOLLOW.getErrorCode();
         try {
+            if(userId == targetId)
+                return ResponseGenerator.createSuccessResponse("A user cannot follow oneself");
             Optional<FollowMapDTO> followMapDTO = followMapService.follow(userId,targetId);
             return followMapDTO.map(ResponseGenerator::createSuccessResponse)
                     .orElseGet(() -> ResponseGenerator.createSuccessResponse("User with ID "+targetId+ " does not exist."));
@@ -36,7 +37,7 @@ public class FollowMapController {
     }
 
     @GetMapping("/users/{userId}/follows")
-    public ResponseBody getFollowing(@Valid @PathVariable long userId){
+    public ResponseBody getFollowing(@PathVariable long userId){
         String errorCode = IErrors.FAILED_TO_FETCH_FOLLOWING.getErrorCode();
         try {
             Optional<List<UserDTO>> following = followMapService.getFollowing(userId);
@@ -48,7 +49,7 @@ public class FollowMapController {
     }
 
     @GetMapping("/users/{userId}/followed-by")
-    public ResponseBody getFollowers(@Valid @PathVariable long userId){
+    public ResponseBody getFollowers(@PathVariable long userId){
         String errorCode = IErrors.FAILED_TO_FETCH_FOLLOWERS.getErrorCode();
         try {
             Optional<List<UserDTO>> followers = followMapService.getFollowers(userId);
@@ -60,7 +61,7 @@ public class FollowMapController {
     }
 
     @DeleteMapping("/users/{userId}/follow/{targetId}")
-    public ResponseBody unfollowEvent(@Valid @PathVariable long userId, @PathVariable long targetId) {
+    public ResponseBody unfollowEvent(@PathVariable long userId, @PathVariable long targetId) {
         String errorCode = IErrors.FAILED_TO_UNFOLLOW.getErrorCode();
         try {
             Optional<String> unfollowUser = followMapService.unfollow(userId,targetId);

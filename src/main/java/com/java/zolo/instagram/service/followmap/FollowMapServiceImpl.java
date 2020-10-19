@@ -30,7 +30,7 @@ public class FollowMapServiceImpl implements FollowMapService{
     public Optional<FollowMapDTO> follow(long userId, long targetId) {
         Optional<User> follower = usersRepository.findById(userId);
         Optional<User> target = usersRepository.findById(targetId);
-        if (target.isEmpty() || follower.isEmpty())
+        if (target.isEmpty())
             return Optional.empty();
         /*modelMapper.typeMap(FollowMap.class, FollowMapDTO.class).addMapping(FollowMap::getFollower, FollowMapDTO::setFollower)
                 .addMapping(FollowMap::getTargetUser, FollowMapDTO::setTargetUser);*/
@@ -61,7 +61,7 @@ public class FollowMapServiceImpl implements FollowMapService{
     public Optional<String> unfollow(long userId, long targetId) {
         Optional<User> follower = usersRepository.findById(userId);
         Optional<User> target = usersRepository.findById(targetId);
-        if (target.isEmpty() || follower.isEmpty())
+        if (target.isEmpty())
             return Optional.empty();
         followMapRepository.delete(followMapRepository.findByFollowerAndTargetUser(follower.get(), target.get()));
         return Optional.of(follower.get().getUserName() + " unfollowed " + target.get().getUserName());
