@@ -10,7 +10,8 @@ import java.util.Optional;
 public interface CommentsService {
     Optional<PostedCommentDTO> postComment(CommentsDTO commentsDTO, long userId, long postId);
     Optional<PostedReplyDTO> replyToAComment(CommentsDTO commentsDTO, long userId, long commentId);
-    Optional<List<PostedCommentDTO>> fetchComments(long postId);
+    Optional<List<PostedCommentDTO>> fetchParentComments(long postId);
+    Optional<List<PostedReplyDTO>> fetchReplyComments(long commentId);
     Optional<PostedCommentDTO> updateComment(long commentId, CommentsDTO commentDTO);
     Optional<String> deleteComment(long commentId);
 }

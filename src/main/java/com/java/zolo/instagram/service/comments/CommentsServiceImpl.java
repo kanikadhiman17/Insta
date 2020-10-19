@@ -44,18 +44,26 @@ public class CommentsServiceImpl implements CommentsService{
         Optional<Comments> optionalComment = commentsRepository.findById(commentId);
         if(optionalComment.isEmpty())
             return Optional.empty();
-
         Comments comment = commentsRepository.save(new Comments().setUser(optionalUser.get()).setPost(optionalComment.get().getPost()).setContent(commentsDTO.getContent()).setReply(optionalComment.get()));
         return Optional.of(new PostedReplyDTO(optionalComment.get().getPost().getId(), commentId, optionalUser.get().getUserName(), comment.getContent(), comment.getCommentedAt()));
     }
 
     @Override
-    public Optional<List<PostedCommentDTO>> fetchComments(long postId) {
+    public Optional<List<PostedCommentDTO>> fetchParentComments(long postId) {
         Optional<Posts> optionalPost = postsRepository.findById(postId);
         if(optionalPost.isEmpty())
             return Optional.empty();
-        List<Comments> comments = commentsRepository.getAllByPost(optionalPost.get());
+        List<Comments> comments = commentsRepository.fetchAllByPostId(optionalPost.get().getId());
         return Optional.of(comments.stream().map(comment -> new PostedCommentDTO(comment.getPost().getId(), comment.getUser().getUserName(), comment.getContent(), comment.getCommentedAt())).collect(Collectors.toList()));
+    }
+
+    @Override
+    public Optional<List<PostedReplyDTO>> fetchReplyComments(long commentId) {
+        Optional<Comments> optionalComment = commentsRepository.findById(commentId);
+        if(optionalComment.isEmpty())
+            return Optional.empty();
+        List<Comments> comments = commentsRepository.getAllByReply(optionalComment.get());
+        return Optional.of(comments.stream().map(comment -> new PostedReplyDTO(comment.getPost().getId(), comment.getReply().getId(),comment.getUser().getUserName(), comment.getContent(), comment.getCommentedAt())).collect(Collectors.toList()));
     }
 
     @Override

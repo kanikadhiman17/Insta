@@ -49,15 +49,28 @@ public class CommentsController {
     }
 
     @GetMapping("/posts/{postId}/comments")
-    public ResponseBody showCommentsOnAPost(@PathVariable long postId) {
-        String errorCode = IErrors.FAILED_TO_FETCH_COMMENTS.getErrorCode();
+    public ResponseBody showParentCommentsOnAPost(@PathVariable long postId) {
+        String errorCode = IErrors.FAILED_TO_FETCH_PARENT_COMMENTS.getErrorCode();
         try {
-            Optional<List<PostedCommentDTO>> postedReplyDTOList = commentsService.fetchComments(postId);
-            return postedReplyDTOList.map(ResponseGenerator::createSuccessResponse)
+            Optional<List<PostedCommentDTO>> postedCommentDTOList = commentsService.fetchParentComments(postId);
+            return postedCommentDTOList.map(ResponseGenerator::createSuccessResponse)
                     .orElseGet(() -> ResponseGenerator.createSuccessResponse("Post with ID "+postId+ " does not exist."));
         } catch (Exception ex) {
             return ResponseGenerator.createFailureResponse(ex.getMessage(), errorCode,
-                    "Failed to fetch comments on post with id "+ postId);
+                    "Failed to fetch parent comments on post with id "+ postId);
+        }
+    }
+
+    @GetMapping("/comments/{commentId}")
+    public ResponseBody showReplyOnAComment(@PathVariable long commentId) {
+        String errorCode = IErrors.FAILED_TO_FETCH_REPLY_COMMENTS.getErrorCode();
+        try {
+            Optional<List<PostedReplyDTO>> postedReplyDTOList = commentsService.fetchReplyComments(commentId);
+            return postedReplyDTOList.map(ResponseGenerator::createSuccessResponse)
+                    .orElseGet(() -> ResponseGenerator.createSuccessResponse("Comment with ID "+commentId+ " does not exist."));
+        } catch (Exception ex) {
+            return ResponseGenerator.createFailureResponse(ex.getMessage(), errorCode,
+                    "Failed to fetch reply comments on comment id "+ commentId);
         }
     }
 

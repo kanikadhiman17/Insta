@@ -2,6 +2,8 @@ package com.java.zolo.instagram.exceptions;
 
 import com.zolo.alpha.exceptionhandling.Error;
 
+import java.sql.SQLException;
+
 public class IErrors {
 
     public static final Error INTERNAL_SERVER_ERROR = new Error("A server error occurred.", 1000);
@@ -31,7 +33,16 @@ public class IErrors {
     // Comments
     public static final Error FAILED_TO_POST_COMMENT = new Error("Failed to post the comment", 1017);
     public static final Error FAILED_TO_REPLY_THE_COMMENT = new Error("Failed to reply on a comment", 1018);
-    public static final Error FAILED_TO_FETCH_COMMENTS = new Error("Failed to fetch comments", 1019);
-    public static final Error FAILED_TO_UPDATE_COMMENT = new Error("Failed to update comment", 1020);
-    public static final Error FAILED_TO_DELETE_COMMENT = new Error("Failed to delete comment", 1021);
+    public static final Error FAILED_TO_FETCH_PARENT_COMMENTS = new Error("Failed to fetch patent comments", 1019);
+    public static final Error FAILED_TO_FETCH_REPLY_COMMENTS = new Error("Failed to fetch reply comments", 1020);
+    public static final Error FAILED_TO_UPDATE_COMMENT = new Error("Failed to update comment", 1021);
+    public static final Error FAILED_TO_DELETE_COMMENT = new Error("Failed to delete comment", 1022);
+
+    // Likes
+    public static final Error FAILED_TO_LIKE_A_POST = new Error("Failed to like a post", 1023);
+    public static final Error FAILED_TO_LIKE_A_COMMENT = new Error("Failed to like a comment", 1024);
+    public static final Error FAILED_TO_FETCH_POST_LIKES = new Error("Failed to fetch post's likes", 1025);
+    public static final Error FAILED_TO_FETCH_COMMENT_LIKES = new Error("Failed to fetch comment's likes", 1026);
+    public static final Error FAILED_TO_UNLIKE_POST = new Error("Failed to unlike a post", 1027);
+    public static final Error FAILED_TO_UNLIKE_COMMENT = new Error("Failed to unlike a comment", 1028);
 }
