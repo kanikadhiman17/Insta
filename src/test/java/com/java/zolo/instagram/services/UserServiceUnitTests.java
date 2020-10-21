@@ -1,7 +1,6 @@
 package com.java.zolo.instagram.services;
 
 import com.java.zolo.instagram.domain.dto.user.UserDTO;
-import com.java.zolo.instagram.domain.model.User;
 import com.java.zolo.instagram.repository.UsersRepository;
 import com.java.zolo.instagram.service.user.UserServiceImpl;
 import org.junit.Test;
@@ -35,13 +34,14 @@ public class UserServiceUnitTests {
                 .setPassword("abcxyz")
                 .setProfileName("Test User");
 
-        modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         String expectedUserName = "test_user";
 
         UserDTO actualUserDTO = userService.createUser(userDTO);
         assertEquals(actualUserDTO.getUserName(), expectedUserName);
     }
 
-
+    @Test
+    public void fetchUserFromId_success() {
+    }
 
 }
