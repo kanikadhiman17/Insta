@@ -72,4 +72,15 @@ public class UserServiceUnitTests {
         assertEquals(expectedProfileName, optionalUserDTO.get().getProfileName());
     }
 
+    @Test
+    public void fetchUserFromId_failure() {
+        doReturn(Optional.empty())
+                .when(usersRepository)
+                .findById(123456l);
+
+        Optional<UserDTO> optionalUserDTO = userService.getUserFromId(123456l);
+        assertEquals(Optional.empty(), optionalUserDTO);
+    }
+
+
 }

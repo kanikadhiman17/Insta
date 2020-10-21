@@ -1,5 +1,6 @@
 package com.java.zolo.instagram.controller;
 
+import ch.qos.logback.core.pattern.parser.OptionTokenizer;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.java.zolo.instagram.domain.dto.user.UserDTO;
@@ -39,8 +40,9 @@ public class UserController {
     public ResponseBody fetchUserFromId(@PathVariable long userId) {
         String errorCode = IErrors.FAILED_TO_FETCH_USER_FROM_ID.getErrorCode();
         try {
-            return ResponseGenerator.createSuccessResponse(Objects.requireNonNullElseGet(
-                    userService.getUserFromId(userId), () -> "User with id " + userId + " not found."));
+            Optional<UserDTO> optionalUserDTO= userService.getUserFromId(userId);
+            return optionalUserDTO.map(ResponseGenerator::createSuccessResponse)
+                    .orElseGet(() -> ResponseGenerator.createSuccessResponse("User with id " + userId + " not found."));
         } catch (Exception ex) {
             return ResponseGenerator.createFailureResponse(ex.getMessage(), errorCode,
                     "Failed to fetch user from user id");

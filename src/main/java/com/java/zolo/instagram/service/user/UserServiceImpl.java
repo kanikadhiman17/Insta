@@ -33,7 +33,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public Optional<UserDTO> getUserFromId(long userId) {
         Optional<User> optionalUser = usersRepository.findById(userId);
-        return optionalUser.map(user -> Optional.of(modelMapper.map(user, UserDTO.class))).orElse(null);
+        return optionalUser.map(user -> Optional.of(modelMapper.map(user, UserDTO.class))).orElse(Optional.empty());
     }
 
     @Override
