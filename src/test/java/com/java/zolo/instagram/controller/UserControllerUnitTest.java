@@ -51,7 +51,7 @@ public class UserControllerUnitTest {
                 .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
                 //.andExpect(jsonPath("$.data.userName", Matchers.is("Test")))
                 //.andExpect(jsonPath("$.*", Matchers.hasSize(2)))
-                .andDo(MockMvcResultHandlers.print())
+                //.andDo(MockMvcResultHandlers.print())
                 .andReturn();
     }
 
@@ -64,7 +64,31 @@ public class UserControllerUnitTest {
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
-                .andDo(MockMvcResultHandlers.print())
                 .andReturn();
     }
+
+    @Test
+    public void getUserFromIdTest() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/users/1"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
+                .andReturn();
+    }
+
+    @Test
+    public void getUsersTest() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/users"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
+                .andReturn();
+    }
+
+    @Test
+    public void deleteUsersTest() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.delete("/api/v1/users/100"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
+                .andReturn();
+    }
+
 }

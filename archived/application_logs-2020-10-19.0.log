@@ -1,0 +1,1288 @@
+00:00:07.573 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m4s842ms).
+00:02:50.922 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s349ms).
+00:05:34.381 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s459ms).
+00:08:17.946 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s565ms).
+00:11:01.482 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s536ms).
+00:13:45.080 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s598ms).
+00:16:25.998 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s918ms).
+00:19:09.735 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s737ms).
+00:21:53.071 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s336ms).
+00:24:36.365 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s293ms).
+00:27:19.909 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s545ms).
+00:30:03.236 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s327ms).
+00:32:46.625 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s389ms).
+00:37:59.535 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s910ms).
+00:40:43.683 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s148ms).
+00:43:26.783 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s100ms).
+00:46:10.302 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s519ms).
+00:48:53.654 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s352ms).
+00:51:36.798 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s144ms).
+00:54:20.355 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s557ms).
+00:57:03.820 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s465ms).
+00:59:47.145 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s325ms).
+01:02:31.010 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s865ms).
+01:05:14.742 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s732ms).
+01:07:58.728 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s986ms).
+01:10:41.351 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s623ms).
+01:13:24.852 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s501ms).
+01:16:08.150 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s298ms).
+01:18:51.628 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s478ms).
+01:21:35.252 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s624ms).
+01:24:18.814 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s562ms).
+01:27:02.181 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s367ms).
+01:29:43.099 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s918ms).
+01:32:26.403 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s304ms).
+01:35:09.745 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s342ms).
+01:37:53.278 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s533ms).
+01:40:36.818 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s540ms).
+01:43:20.163 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s345ms).
+01:46:03.497 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s334ms).
+01:48:47.063 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s566ms).
+01:51:30.432 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s368ms).
+01:54:13.746 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s315ms).
+01:56:56.977 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s231ms).
+01:59:40.430 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s453ms).
+02:03:31.917 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s486ms).
+02:06:15.685 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s769ms).
+02:08:59.215 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s530ms).
+02:11:42.582 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s367ms).
+02:14:26.116 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s534ms).
+02:17:09.488 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s372ms).
+02:19:52.767 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s279ms).
+02:22:36.239 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s472ms).
+02:25:19.560 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s321ms).
+02:28:03.107 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s547ms).
+02:30:46.479 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s372ms).
+02:33:29.561 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s82ms).
+02:36:12.877 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s316ms).
+02:38:56.458 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s581ms).
+02:41:39.804 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s346ms).
+02:44:23.350 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s546ms).
+02:47:06.694 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s344ms).
+02:49:50.061 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s366ms).
+02:52:33.622 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s562ms).
+02:55:17.017 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s395ms).
+02:58:00.366 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s349ms).
+03:00:43.653 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s287ms).
+03:03:27.223 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s570ms).
+03:06:10.575 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s351ms).
+03:08:54.125 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s551ms).
+03:12:45.326 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s201ms).
+03:15:28.492 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s166ms).
+03:18:11.842 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s350ms).
+03:20:55.354 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s512ms).
+03:23:38.983 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s629ms).
+03:26:22.005 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s22ms).
+03:29:05.567 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s562ms).
+03:31:48.358 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s791ms).
+03:34:31.994 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s636ms).
+03:37:15.510 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s516ms).
+03:39:58.830 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s320ms).
+03:42:41.906 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s76ms).
+03:45:25.291 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s385ms).
+03:48:08.878 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s587ms).
+03:50:52.267 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s389ms).
+03:53:35.645 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s378ms).
+03:56:18.991 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s346ms).
+04:00:23.145 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m4s154ms).
+04:03:06.621 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s476ms).
+04:05:50.177 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s556ms).
+04:08:33.611 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s434ms).
+04:11:16.886 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s275ms).
+04:14:00.005 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s119ms).
+04:16:42.483 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s478ms).
+04:19:25.890 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s407ms).
+04:22:09.830 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s940ms).
+04:24:52.985 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s155ms).
+04:27:36.487 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s502ms).
+04:32:48.992 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m12s505ms).
+04:35:33.379 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s387ms).
+04:38:16.724 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s345ms).
+04:40:59.573 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s849ms).
+04:42:19.574 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s1ms).
+04:45:02.806 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s232ms).
+04:47:46.368 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s562ms).
+04:50:29.915 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s546ms).
+04:53:13.292 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s378ms).
+04:55:56.607 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s315ms).
+04:58:40.115 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s508ms).
+05:01:23.479 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s364ms).
+05:04:06.916 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s437ms).
+05:06:50.824 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s908ms).
+05:09:34.506 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s682ms).
+05:12:12.015 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m37s509ms).
+05:14:55.392 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s377ms).
+05:17:38.748 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s356ms).
+05:20:22.278 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s530ms).
+05:23:05.636 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s358ms).
+05:25:49.186 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s550ms).
+05:28:32.933 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s746ms).
+05:31:16.314 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s382ms).
+05:33:59.652 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s338ms).
+05:36:42.988 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s336ms).
+05:39:26.635 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s647ms).
+05:42:10.178 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s543ms).
+05:44:53.479 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s301ms).
+05:47:36.829 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s350ms).
+05:50:20.303 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s474ms).
+05:53:03.649 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s346ms).
+05:55:46.953 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s304ms).
+05:58:30.309 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s356ms).
+06:01:13.643 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s334ms).
+06:03:57.187 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s544ms).
+06:06:40.522 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s335ms).
+06:09:24.096 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s574ms).
+06:12:07.681 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s585ms).
+06:14:50.975 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s294ms).
+06:17:34.469 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s494ms).
+06:20:17.996 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s526ms).
+06:24:09.267 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s272ms).
+06:26:52.627 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s360ms).
+06:29:36.206 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s579ms).
+06:32:19.975 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s769ms).
+06:35:03.325 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s350ms).
+06:37:46.576 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s251ms).
+06:40:08.587 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m22s11ms).
+06:50:24.971 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m16s384ms).
+06:52:45.493 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m20s522ms).
+06:55:29.127 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s634ms).
+06:58:12.824 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s697ms).
+07:00:56.810 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s986ms).
+07:03:40.487 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s677ms).
+07:06:24.250 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s763ms).
+07:09:06.310 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s60ms).
+07:11:49.968 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s658ms).
+07:14:33.746 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s778ms).
+07:17:17.625 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s879ms).
+07:20:01.562 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s937ms).
+07:22:45.263 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s701ms).
+07:25:29.209 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s945ms).
+07:28:12.922 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s714ms).
+07:30:56.848 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s926ms).
+07:31:50.589 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s741ms).
+07:33:33.763 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s501ms).
+07:36:54.945 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m51s180ms).
+07:37:48.630 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s685ms).
+07:40:30.622 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m41s992ms).
+07:43:14.343 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s721ms).
+07:44:35.965 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s622ms).
+07:47:19.471 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s506ms).
+07:50:02.781 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s310ms).
+07:52:46.034 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s253ms).
+07:55:29.633 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s599ms).
+07:58:13.468 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s834ms).
+07:59:30.340 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s873ms).
+08:10:30.873 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s511ms).
+08:13:03.326 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s453ms).
+08:15:46.844 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s517ms).
+08:18:30.359 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s516ms).
+08:21:14.143 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s784ms).
+08:23:57.468 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s325ms).
+08:26:41.034 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s566ms).
+08:29:24.614 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s580ms).
+08:32:07.993 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s379ms).
+08:34:51.572 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s579ms).
+08:37:35.147 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s575ms).
+08:40:18.695 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s548ms).
+08:43:02.057 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s362ms).
+08:46:53.760 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s703ms).
+08:49:37.247 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s487ms).
+08:52:21.061 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s814ms).
+08:55:04.406 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s345ms).
+08:57:48.116 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s710ms).
+09:00:31.488 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s371ms).
+09:03:14.938 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s451ms).
+09:05:58.258 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s320ms).
+09:08:41.917 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s659ms).
+09:11:25.169 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s252ms).
+09:14:08.470 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s301ms).
+09:16:52.013 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s543ms).
+09:19:35.295 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s282ms).
+09:22:18.795 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s500ms).
+09:25:02.286 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s491ms).
+09:27:45.598 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s312ms).
+09:30:28.865 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s267ms).
+09:33:12.390 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s525ms).
+09:35:26.003 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m13s613ms).
+09:37:27.469 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:37:27.483 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:38:23.468 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 13124 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+09:38:23.469 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+09:38:25.329 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:38:25.677 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:38:27.049 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.874 seconds (JVM running for 9.495)
+09:45:25.719 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s926ms).
+09:48:09.039 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s320ms).
+09:50:52.529 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s490ms).
+09:53:36.027 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s498ms).
+09:56:19.328 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s301ms).
+09:58:54.555 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m35s227ms).
+10:01:38.380 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s825ms).
+10:17:22.852 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:17:33.179 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 13422 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+10:17:33.181 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+10:17:35.086 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:17:35.467 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:17:36.626 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.731 seconds (JVM running for 9.279)
+10:25:21.584 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:25:21.599 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:25:31.856 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 13492 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+10:25:31.857 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+10:25:33.720 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:25:34.176 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:25:35.365 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.815 seconds (JVM running for 9.361)
+10:28:55.482 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:28:55.491 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:40:53.530 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 13558 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+10:40:53.531 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+10:40:55.327 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:40:55.685 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:40:56.826 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.631 seconds (JVM running for 9.23)
+10:41:32.278 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:41:32.290 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:41:42.025 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 13565 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+10:41:42.028 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+10:41:43.871 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:41:44.241 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:41:45.393 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.654 seconds (JVM running for 9.202)
+10:42:08.305 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:42:08.311 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:42:16.506 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 13574 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+10:42:16.507 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+10:42:18.487 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:42:18.874 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:42:20.054 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.837 seconds (JVM running for 9.407)
+10:43:02.195 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:43:02.206 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:10:57.787 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 15038 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:10:57.789 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+14:11:00.278 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:11:00.837 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:11:02.259 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 4.856 seconds (JVM running for 10.508)
+14:15:22.314 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:36:04.199 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15322 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:36:04.201 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:36:06.354 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:36:07.043 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:36:08.620 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.696 seconds (JVM running for 10.633)
+14:36:09.078 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:36:09.085 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:37:23.949 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15341 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:37:23.952 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:37:25.972 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:37:26.566 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:37:28.198 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.549 seconds (JVM running for 10.482)
+14:37:28.561 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:37:28.567 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:38:47.567 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15347 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:38:47.569 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:38:49.574 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:38:50.034 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:38:51.679 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.359 seconds (JVM running for 10.109)
+14:38:52.035 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:38:52.044 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:40:50.961 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15364 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:40:50.964 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:40:53.001 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:40:53.651 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:40:55.203 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.49 seconds (JVM running for 10.291)
+14:40:55.621 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:40:55.627 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:41:34.470 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15370 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:41:34.473 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:41:36.600 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:41:37.214 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:41:38.753 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.536 seconds (JVM running for 10.361)
+14:41:39.161 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:41:39.166 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:42:21.588 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15377 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:42:21.591 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:42:23.467 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:42:24.050 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:42:25.552 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.198 seconds (JVM running for 9.965)
+14:42:25.976 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:42:25.982 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:43:40.120 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15384 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:43:40.123 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:43:43.232 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:43:44.686 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:43:47.156 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 12.486 seconds (JVM running for 14.939)
+14:43:47.742 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:43:47.751 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:46:27.133 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15398 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:46:27.135 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:46:29.128 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:46:29.650 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:46:31.224 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.36 seconds (JVM running for 10.291)
+14:46:31.657 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:46:31.664 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:47:07.972 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15402 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:47:07.974 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:47:10.080 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:47:10.625 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:47:12.087 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.359 seconds (JVM running for 10.144)
+14:47:12.503 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:47:12.511 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:53:09.787 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15431 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:53:09.790 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:53:11.807 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:53:12.332 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:53:13.908 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.356 seconds (JVM running for 10.161)
+14:53:14.316 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:53:14.325 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:53:59.943 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15437 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:53:59.945 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:54:01.800 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:54:02.291 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:54:03.716 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.02 seconds (JVM running for 9.847)
+14:54:04.107 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:54:04.114 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:57:20.061 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15458 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:57:20.064 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:57:22.142 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:57:22.744 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:57:24.246 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.444 seconds (JVM running for 10.291)
+14:57:24.711 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:57:24.721 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:58:43.674 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15467 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:58:43.677 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:58:45.633 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:58:46.147 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:58:47.714 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.28 seconds (JVM running for 10.069)
+14:58:48.131 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:58:48.139 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:59:30.717 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15476 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+14:59:30.719 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+14:59:32.787 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:59:33.355 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:59:34.874 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.406 seconds (JVM running for 10.2)
+14:59:35.272 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:59:35.278 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:00:49.060 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15483 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:00:49.062 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:00:50.984 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:00:51.465 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:00:53.057 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.243 seconds (JVM running for 10.073)
+15:00:53.462 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:00:53.467 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:02:21.305 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15491 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:02:21.308 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:02:23.342 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:02:23.856 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:02:25.435 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.366 seconds (JVM running for 10.163)
+15:02:25.707 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:02:25.713 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:03:05.744 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15499 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:03:05.746 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:03:07.609 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:03:08.192 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:03:09.747 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.249 seconds (JVM running for 10.073)
+15:03:10.230 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:03:10.239 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:04:36.418 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15512 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:04:36.420 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:04:38.365 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:04:38.874 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:04:40.438 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.268 seconds (JVM running for 10.067)
+15:04:40.957 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:04:40.965 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:05:28.263 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15515 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:05:28.265 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:05:30.366 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:05:30.863 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:05:32.404 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.385 seconds (JVM running for 10.193)
+15:05:32.879 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:05:32.886 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:06:56.063 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15525 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:06:56.065 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:06:58.096 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:06:58.655 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:07:00.174 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.35 seconds (JVM running for 10.159)
+15:07:00.670 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:07:00.675 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:08:30.809 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15531 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:08:30.812 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:08:32.656 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:08:33.107 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:08:34.462 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 8.925 seconds (JVM running for 9.796)
+15:08:34.858 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:08:34.864 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:25:22.147 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15582 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:25:22.149 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:25:24.515 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:25:25.047 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:25:26.552 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.659 seconds (JVM running for 10.464)
+15:25:26.942 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:25:26.949 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:26:40.472 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15588 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:26:40.473 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:26:42.426 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:26:42.982 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:26:44.566 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.337 seconds (JVM running for 10.128)
+15:26:44.953 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:26:44.958 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:34:29.919 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15661 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:34:29.921 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:34:31.733 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:34:32.302 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:34:33.783 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.147 seconds (JVM running for 9.98)
+15:34:34.070 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:34:34.075 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:37:11.271 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15668 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:37:11.273 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:37:13.150 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:37:13.628 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:37:15.052 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.038 seconds (JVM running for 9.921)
+15:37:15.347 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:37:15.353 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:38:49.062 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15678 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:38:49.065 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:38:51.788 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:38:52.789 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:38:54.792 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 11.179 seconds (JVM running for 13.412)
+15:38:55.179 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:38:55.185 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:41:00.538 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15690 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:41:00.540 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:41:02.332 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:41:02.835 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:41:04.280 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 8.996 seconds (JVM running for 9.809)
+15:41:04.574 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:41:04.579 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:42:09.800 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15703 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:42:09.802 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:42:11.731 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:42:12.297 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:42:13.861 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.309 seconds (JVM running for 10.112)
+15:42:14.304 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:42:14.310 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:43:17.237 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15714 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:43:17.239 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:43:19.409 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:43:19.900 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:43:21.425 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.438 seconds (JVM running for 10.267)
+15:43:21.854 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:43:21.859 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:45:09.160 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15730 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:45:09.161 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:45:11.191 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:45:11.748 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:45:13.260 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.352 seconds (JVM running for 10.151)
+15:45:13.771 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:45:13.780 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:48:21.978 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15741 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:48:21.984 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:48:24.195 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:48:24.773 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:48:26.534 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.822 seconds (JVM running for 10.677)
+15:48:27.144 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:48:27.151 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:49:20.942 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15747 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:49:20.943 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:49:22.888 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:49:23.394 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:49:24.952 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.261 seconds (JVM running for 10.045)
+15:49:25.376 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:49:25.382 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:56:53.435 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 15824 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+15:56:53.436 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+15:56:55.363 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:56:55.877 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:56:57.414 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.227 seconds (JVM running for 10.04)
+15:56:57.869 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:56:57.879 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:31:02.582 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 16031 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:31:02.585 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+16:31:04.791 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:31:05.434 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:31:06.966 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.623 seconds (JVM running for 10.485)
+16:31:07.377 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:31:07.384 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:31:45.255 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 16036 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:31:45.257 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+16:31:47.028 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:31:47.561 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:31:48.992 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 8.971 seconds (JVM running for 9.752)
+16:31:49.410 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:31:49.415 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:32:35.758 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 16041 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:32:35.759 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+16:32:37.636 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:32:38.112 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:32:39.718 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.197 seconds (JVM running for 10.005)
+16:32:40.133 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:32:40.138 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:34:06.259 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 16053 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:34:06.261 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+16:34:08.341 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:34:08.713 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:34:09.905 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.971 seconds (JVM running for 9.645)
+17:10:28.234 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:10:28.254 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:02:58.203 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 16569 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+18:02:58.204 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+18:03:00.093 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:03:00.428 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:03:01.496 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:03:01.502 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:05:46.122 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 16596 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+18:05:46.125 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+18:05:48.073 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:05:48.436 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:05:49.617 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:05:49.624 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:06:49.164 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 16602 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+18:06:49.166 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+18:06:51.137 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:06:51.501 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:06:52.695 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:06:52.700 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:08:09.515 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 16618 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+18:08:09.518 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+18:08:11.473 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:08:11.822 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:08:12.829 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:08:12.834 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:09:19.542 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 16626 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+18:09:19.545 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+18:09:21.196 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:09:21.580 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:09:22.740 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.468 seconds (JVM running for 9.029)
+18:23:48.338 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s594ms).
+18:24:45.701 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s367ms).
+18:37:02.115 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s644ms).
+18:53:30.920 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s749ms).
+19:34:02.930 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m54s190ms).
+19:36:46.787 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s858ms).
+19:39:30.210 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s423ms).
+19:42:13.697 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s487ms).
+19:44:57.155 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s458ms).
+19:47:40.496 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s341ms).
+19:50:24.183 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s687ms).
+19:53:07.479 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s296ms).
+19:55:51.212 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s733ms).
+19:58:34.661 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s449ms).
+20:01:18.200 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s539ms).
+20:04:01.405 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s205ms).
+20:06:44.689 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s283ms).
+20:09:28.456 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s768ms).
+20:12:12.060 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s604ms).
+20:14:55.816 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s756ms).
+20:17:39.598 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s781ms).
+20:20:23.412 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s815ms).
+20:23:07.482 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s70ms).
+20:25:50.999 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s517ms).
+20:28:34.288 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s289ms).
+20:31:17.689 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s401ms).
+20:34:00.950 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s261ms).
+20:36:44.412 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s462ms).
+20:39:27.848 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s436ms).
+20:42:11.309 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s461ms).
+20:44:55.112 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s803ms).
+20:47:38.533 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s421ms).
+20:49:49.969 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s436ms).
+20:54:14.530 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m54s555ms).
+20:56:58.069 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s539ms).
+20:59:41.576 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s507ms).
+21:02:25.058 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s482ms).
+21:05:08.577 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s519ms).
+21:07:52.052 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s475ms).
+21:10:35.592 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s540ms).
+21:13:18.827 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s235ms).
+21:16:02.342 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s515ms).
+21:18:45.862 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s520ms).
+21:19:55.932 [HikariPool-1 housekeeper] WARN  
+					com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s70ms).
+21:21:34.343 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:21:34.358 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:21:44.092 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 17709 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+21:21:44.094 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+21:21:45.974 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:21:46.332 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:21:47.567 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.767 seconds (JVM running for 9.273)
+21:28:17.013 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:28:17.025 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:28:27.170 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 17738 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+21:28:27.173 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+21:28:29.024 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:28:29.400 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:28:30.599 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.726 seconds (JVM running for 9.23)
+21:51:51.622 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:51:51.633 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:52:57.848 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 17854 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+21:52:57.849 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+21:52:59.913 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:53:00.308 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:53:01.478 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:53:01.485 [main] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:58:15.695 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 17887 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+21:58:15.697 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+21:58:17.607 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:58:18.053 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:58:19.252 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.842 seconds (JVM running for 9.399)
+21:59:20.311 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:59:20.319 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:59:30.109 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 17903 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+21:59:30.111 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+21:59:32.370 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:59:32.789 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:59:34.099 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 4.266 seconds (JVM running for 9.878)
+22:08:59.702 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:08:59.712 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:10:08.323 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 17939 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+22:10:08.325 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+22:10:10.270 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:10:10.741 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:10:11.915 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.869 seconds (JVM running for 9.446)
+22:24:49.729 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:24:49.753 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:25:00.451 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Starting InstagramApplication on zolostayss-MacBook-Pro.local with PID 18005 (/Users/zolostays/IdeaProjects/Instagram/target/classes started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+22:25:00.452 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - No active profile set, falling back to default profiles: default
+22:25:02.247 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:25:02.591 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:25:03.865 [main] INFO  
+					com.java.zolo.instagram.InstagramApplication - Started InstagramApplication in 3.712 seconds (JVM running for 9.221)
+22:27:53.215 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:27:53.226 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

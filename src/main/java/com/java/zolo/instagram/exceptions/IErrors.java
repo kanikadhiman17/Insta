@@ -2,8 +2,6 @@ package com.java.zolo.instagram.exceptions;
 
 import com.zolo.alpha.exceptionhandling.Error;
 
-import java.sql.SQLException;
-
 public class IErrors {
 
     public static final Error INTERNAL_SERVER_ERROR = new Error("A server error occurred.", 1000);

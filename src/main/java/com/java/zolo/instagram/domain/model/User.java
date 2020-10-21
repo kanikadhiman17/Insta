@@ -3,6 +3,7 @@ package com.java.zolo.instagram.domain.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
@@ -14,6 +15,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Entity
 @Table(name = "user")
+@Accessors(chain = true)
 public class User {
     @Id
     @GeneratedValue
