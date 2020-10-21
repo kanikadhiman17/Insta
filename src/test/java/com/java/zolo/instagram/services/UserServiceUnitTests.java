@@ -36,11 +36,12 @@ public class UserServiceUnitTests {
                 .setProfileName("Test User");
 
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
-        User user = modelMapper.map(userDTO, User.class);
         String expectedUserName = "test_user";
 
         UserDTO actualUserDTO = userService.createUser(userDTO);
         assertEquals(actualUserDTO.getUserName(), expectedUserName);
     }
+
+
 
 }
