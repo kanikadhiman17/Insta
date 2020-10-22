@@ -82,5 +82,59 @@ public class UserServiceUnitTests {
         assertEquals(Optional.empty(), optionalUserDTO);
     }
 
+    @Test
+    public void updateUserWhenIdIsPresent() {
+        UserDTO userDTO = new UserDTO().setUserName("test_user")
+                .setEmailId("test@gmail.com")
+                .setPassword("abcxyz")
+                .setProfileName("Test User");
+        modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+        User user = modelMapper.map(userDTO, User.class);
 
+        String expectedUserName = "test_user";
+        String expectedEmailId = "test@gmail.com";
+        String expectedProfileName = "Test User";
+
+        doReturn(Optional.of(user)).when(usersRepository).findById(12345l); // usersRepository.findById returns optional user
+        doReturn(user).when(usersRepository).save(user); // usersRepository.save returns user
+
+        Optional<UserDTO> optionalUserDTO = userService.updateUser(12345l, userDTO);
+        assertEquals(expectedUserName, optionalUserDTO.get().getUserName());
+        assertEquals(expectedEmailId, optionalUserDTO.get().getEmailId());
+        assertEquals(expectedProfileName, optionalUserDTO.get().getProfileName());
+    }
+
+    @Test
+    public void updateUserWhenIdIsNotPresent() {
+        UserDTO userDTO = new UserDTO().setUserName("test_user")
+                .setEmailId("test@gmail.com")
+                .setPassword("abcxyz")
+                .setProfileName("Test User");
+
+        doReturn(Optional.empty()).when(usersRepository).findById(12345l); // usersRepository.findById returns optional user
+
+        Optional<UserDTO> optionalUserDTO = userService.updateUser(12345l, userDTO);
+        assertEquals(Optional.empty(), optionalUserDTO);
+    }
+
+    @Test
+    public void deleteUserWhenIdIsPresent() {
+        User user = new User().setId(12345l).setUserName("test_user")
+                .setEmailId("test@gmail.com")
+                .setPassword("abcxyz")
+                .setProfileName("Test User");
+
+        doReturn(Optional.of(user)).when(usersRepository).findById(12345l);
+
+        Optional<String> deleteStatus = userService.deleteUser(12345l);
+        assertEquals("Sorry to let you go " + user.getProfileName(), deleteStatus.get());
+    }
+
+    @Test
+    public void deleteUserWhenIdIsNotPresent() {
+        doReturn(Optional.empty()).when(usersRepository).findById(12345l);
+
+        Optional<String> deleteStatus = userService.deleteUser(12345l);
+        assertEquals(Optional.empty(), deleteStatus);
+    }
 }

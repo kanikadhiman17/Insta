@@ -1,6 +1,5 @@
 package com.java.zolo.instagram.controller;
 
-import ch.qos.logback.core.pattern.parser.OptionTokenizer;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.java.zolo.instagram.domain.dto.user.UserDTO;
@@ -12,7 +11,6 @@ import com.zolo.alpha.api.ResponseGenerator;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
-import java.util.Objects;
 import java.util.Optional;
 
 @RestController

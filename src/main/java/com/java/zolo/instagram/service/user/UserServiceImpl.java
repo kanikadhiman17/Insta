@@ -75,7 +75,6 @@ public class UserServiceImpl implements UserService {
         if (userDTO.getContactNo() != null) {
             user.setContactNo(userDTO.getContactNo());
         }
-
         user = usersRepository.save(user);
         return Optional.of(modelMapper.map(user, UserDTO.class));
     }
