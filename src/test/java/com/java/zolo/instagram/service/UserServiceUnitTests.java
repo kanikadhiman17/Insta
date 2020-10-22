@@ -1,4 +1,4 @@
-package com.java.zolo.instagram.services;
+package com.java.zolo.instagram.service;
 
 import com.java.zolo.instagram.domain.dto.user.UserDTO;
 import com.java.zolo.instagram.domain.model.User;

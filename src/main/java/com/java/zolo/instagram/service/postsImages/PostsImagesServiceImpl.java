@@ -1,4 +1,4 @@
-package com.java.zolo.instagram.service.postImages;
+package com.java.zolo.instagram.service.postsImages;
 
 import com.java.zolo.instagram.domain.dto.postImages.PostImagesDTO;
 import com.java.zolo.instagram.domain.dto.postImages.PostUpdateDTO;
@@ -17,13 +17,13 @@ import java.util.stream.Collectors;
 
 
 @Service
-public class PostImagesServiceImpl  implements PostImagesService {
+public class PostsImagesServiceImpl  implements PostsImagesService {
 
     public final ImagesRepository imagesRepository;
     public final PostsRepository postsRepository;
     public final UsersRepository usersRepository;
 
-    public PostImagesServiceImpl(ImagesRepository imagesRepository, PostsRepository postsRepository, UsersRepository usersRepository) {
+    public PostsImagesServiceImpl(ImagesRepository imagesRepository, PostsRepository postsRepository, UsersRepository usersRepository) {
         this.imagesRepository = imagesRepository;
         this.postsRepository = postsRepository;
         this.usersRepository = usersRepository;

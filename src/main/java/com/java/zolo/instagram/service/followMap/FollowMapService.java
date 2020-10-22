@@ -1,4 +1,4 @@
-package com.java.zolo.instagram.service.followmap;
+package com.java.zolo.instagram.service.followMap;
 
 import com.java.zolo.instagram.domain.dto.followMap.FollowMapDTO;
 import com.java.zolo.instagram.domain.dto.user.UserDTO;

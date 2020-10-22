@@ -3,7 +3,7 @@ package com.java.zolo.instagram.controller;
 import com.java.zolo.instagram.domain.dto.followMap.FollowMapDTO;
 import com.java.zolo.instagram.domain.dto.user.UserDTO;
 import com.java.zolo.instagram.exceptions.IErrors;
-import com.java.zolo.instagram.service.followmap.FollowMapService;
+import com.java.zolo.instagram.service.followMap.FollowMapService;
 import com.zolo.alpha.api.ResponseBody;
 import com.zolo.alpha.api.ResponseGenerator;
 import org.springframework.web.bind.annotation.*;
