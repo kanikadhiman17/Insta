@@ -7,7 +7,7 @@ public class UserSampleData {
 
     public static UserDTO generateUserDTO() {
         UserDTO userDTO = new UserDTO();
-        userDTO.setUserName("Test");
+        userDTO.setUserName("test_user");
         userDTO.setEmailId("test@gmail.com");
         userDTO.setProfileName("Test User");
         userDTO.setPassword("abc");
@@ -16,19 +16,12 @@ public class UserSampleData {
 
     public static User generateUser() {
         User user = new User();
-        user.setUserName("Test");
+        user.setId(12345l);
+        user.setUserName("test_user");
         user.setEmailId("test@gmail.com");
         user.setProfileName("Test User");
         user.setPassword("abc");
         return user;
     }
 
-    public static UserDTO generateReferenceUserDTO() {
-        UserDTO userDTO = new UserDTO();
-        userDTO.setUserName("Test1");
-        userDTO.setEmailId("test1@gmail.com");
-        userDTO.setProfileName("Test1 User");
-        userDTO.setPassword("abcd");
-        return userDTO;
-    }
 }

@@ -1,9 +1,10 @@
 package com.java.zolo.instagram.controller;
 
-import com.java.zolo.instagram.domain.dto.user.UserDTO;
+import com.java.zolo.instagram.domain.dto.postImages.PostImagesDTO;
+import com.java.zolo.instagram.domain.dto.postImages.PostUpdateDTO;
+import com.java.zolo.instagram.sampleData.PostsImagesSampleData;
 import com.java.zolo.instagram.sampleData.TestUtils;
-import com.java.zolo.instagram.sampleData.UserSampleData;
-import com.java.zolo.instagram.service.user.UserService;
+import com.java.zolo.instagram.service.postsImages.PostsImagesService;
 import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
@@ -22,42 +23,27 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @RunWith(SpringRunner.class)
-public class UserControllerTest {
+public class ServiceControllerTest {
 
     //@Autowired
     private MockMvc mockMvc;
 
     @InjectMocks
-    private UserController userController;
+    private PostsImagesController postsImagesController;
 
     @Mock
-    UserService userService;
+    PostsImagesService postsImagesService;
 
     @Before
     public void setUp() {
-        mockMvc = MockMvcBuilders.standaloneSetup(userController).build();
+        mockMvc = MockMvcBuilders.standaloneSetup(postsImagesController).build();
     }
 
     @Test
-    public void createUserTest() throws Exception{
-        UserDTO userDTO = UserSampleData.generateUserDTO();
-        mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/users")
-                .content(TestUtils.convertToJsonString(userDTO))
-                .contentType(MediaType.APPLICATION_JSON)
-                .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
-                //.andExpect(jsonPath("$.data.userName", Matchers.is("Test User")))
-                //.andExpect(jsonPath("$.*", Matchers.hasSize(2)))
-                //.andDo(MockMvcResultHandlers.print())
-                .andReturn();
-    }
-
-    @Test
-    public void updateUserTest() throws Exception{
-        UserDTO userDTO = UserSampleData.generateUserDTO();
-        mockMvc.perform(MockMvcRequestBuilders.patch("/api/v1/users/100")
-                .content(TestUtils.convertToJsonString(userDTO))
+    public void uploadPostTest() throws Exception{
+        PostImagesDTO postImagesDTO = PostsImagesSampleData.generatePostImagesDTO();
+        mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/users/12345/posts")
+                .content(TestUtils.convertToJsonString(postImagesDTO))
                 .contentType(MediaType.APPLICATION_JSON)
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
@@ -66,26 +52,39 @@ public class UserControllerTest {
     }
 
     @Test
-    public void getUserFromIdTest() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/users/1"))
+    public void getPostsFromUserIdTest() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/users/12345/posts"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
                 .andReturn();
     }
 
     @Test
-    public void getUsersTest() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/users"))
+    public void getPostsFromPostIdTest() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/posts/1"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
                 .andReturn();
     }
 
     @Test
-    public void deleteUserTest() throws Exception{
-        mockMvc.perform(MockMvcRequestBuilders.delete("/api/v1/users/100"))
+    public void editPostTest() throws Exception{
+        PostUpdateDTO postUpdateDTO = PostsImagesSampleData.generatePostUpdateDTO();
+        mockMvc.perform(MockMvcRequestBuilders.patch("/api/v1/posts/1")
+                .content(TestUtils.convertToJsonString(postUpdateDTO))
+                .contentType(MediaType.APPLICATION_JSON)
+                .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
                 .andReturn();
     }
+
+    @Test
+    public void deletePostTest() throws Exception{
+        mockMvc.perform(MockMvcRequestBuilders.delete("/api/v1/posts/100"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.status", Matchers.is("SUCCESS")))
+                .andReturn();
+    }
+
 }

@@ -1,0 +1,42 @@
+18:24:39.410 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 17352 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+18:24:39.413 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+18:24:41.294 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:24:41.776 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:24:43.707 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.575 seconds (JVM running for 10.417)
+18:24:44.119 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:24:44.124 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:30:21.163 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 17380 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+18:30:21.165 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+18:30:23.099 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:30:23.540 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:30:25.183 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.273 seconds (JVM running for 10.184)
+18:30:25.584 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:30:25.589 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:31:25.021 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Starting UserControllerUnitTest on zolostayss-MacBook-Pro.local with PID 17387 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+18:31:25.022 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - No active profile set, falling back to default profiles: default
+18:31:26.987 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:31:27.479 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:31:28.961 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerUnitTest - Started UserControllerUnitTest in 9.161 seconds (JVM running for 9.945)
+18:31:29.323 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:31:29.329 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -3,6 +3,7 @@ package com.java.zolo.instagram.service;
 import com.java.zolo.instagram.domain.dto.user.UserDTO;
 import com.java.zolo.instagram.domain.model.User;
 import com.java.zolo.instagram.repository.UsersRepository;
+import com.java.zolo.instagram.sampleData.UserSampleData;
 import com.java.zolo.instagram.service.user.UserServiceImpl;
 import org.junit.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -34,10 +35,7 @@ public class UserServiceUnitTests {
     @Test
     public void createUser_success() {
         // arrange
-        UserDTO userDTO = new UserDTO().setUserName("test_user")
-                .setEmailId("test@gmail.com")
-                .setPassword("abcxyz")
-                .setProfileName("Test User");
+        UserDTO userDTO = UserSampleData.generateUserDTO();
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         User user = modelMapper.map(userDTO, User.class);
         String expectedUserName = "test_user";
@@ -53,10 +51,7 @@ public class UserServiceUnitTests {
 
     @Test
     public void fetchUserFromId_success() {
-        User user = new User().setId(12345l).setUserName("test_user")
-                .setEmailId("test@gmail.com")
-                .setPassword("abcxyz")
-                .setProfileName("Test User");
+        User user = UserSampleData.generateUser();
 
         String expectedUserName = "test_user";
         String expectedEmailId = "test@gmail.com";
@@ -84,10 +79,7 @@ public class UserServiceUnitTests {
 
     @Test
     public void updateUserWhenIdIsPresent() {
-        UserDTO userDTO = new UserDTO().setUserName("test_user")
-                .setEmailId("test@gmail.com")
-                .setPassword("abcxyz")
-                .setProfileName("Test User");
+        UserDTO userDTO = UserSampleData.generateUserDTO();
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         User user = modelMapper.map(userDTO, User.class);
 
@@ -106,10 +98,7 @@ public class UserServiceUnitTests {
 
     @Test
     public void updateUserWhenIdIsNotPresent() {
-        UserDTO userDTO = new UserDTO().setUserName("test_user")
-                .setEmailId("test@gmail.com")
-                .setPassword("abcxyz")
-                .setProfileName("Test User");
+        UserDTO userDTO = UserSampleData.generateUserDTO();
 
         doReturn(Optional.empty()).when(usersRepository).findById(12345l); // usersRepository.findById returns optional user
 
@@ -119,10 +108,7 @@ public class UserServiceUnitTests {
 
     @Test
     public void deleteUserWhenIdIsPresent() {
-        User user = new User().setId(12345l).setUserName("test_user")
-                .setEmailId("test@gmail.com")
-                .setPassword("abcxyz")
-                .setProfileName("Test User");
+        User user = UserSampleData.generateUser();
 
         doReturn(Optional.of(user)).when(usersRepository).findById(12345l);
 
