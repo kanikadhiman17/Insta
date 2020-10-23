@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(MockitoJUnitRunner.class)
 @ExtendWith(MockitoExtension.class)
-public class UserServiceUnitTests {
+public class UserServiceUnitTest {
 
     ModelMapper modelMapper = new ModelMapper();
 
@@ -38,14 +38,13 @@ public class UserServiceUnitTests {
         UserDTO userDTO = UserSampleData.generateUserDTO();
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         User user = modelMapper.map(userDTO, User.class);
-        String expectedUserName = "test_user";
         given(usersRepository.save(user)).willReturn(user); // mocking repository's behavior
 
         // act
         UserDTO actualUserDTO = userService.createUser(userDTO);
 
         // assert
-        assertEquals(expectedUserName, actualUserDTO.getUserName());
+        assertEquals(userDTO.getUserName(), actualUserDTO.getUserName());
         verify(usersRepository).save(any(User.class));
     }
 
@@ -53,18 +52,14 @@ public class UserServiceUnitTests {
     public void fetchUserFromId_success() {
         User user = UserSampleData.generateUser();
 
-        String expectedUserName = "test_user";
-        String expectedEmailId = "test@gmail.com";
-        String expectedProfileName = "Test User";
-
         doReturn(Optional.of(user))
                 .when(usersRepository)
                 .findById(12345l);
 
         Optional<UserDTO> optionalUserDTO = userService.getUserFromId(12345l);
-        assertEquals(expectedUserName, optionalUserDTO.get().getUserName());
-        assertEquals(expectedEmailId, optionalUserDTO.get().getEmailId());
-        assertEquals(expectedProfileName, optionalUserDTO.get().getProfileName());
+        assertEquals(user.getUserName(), optionalUserDTO.get().getUserName());
+        assertEquals(user.getEmailId(), optionalUserDTO.get().getEmailId());
+        assertEquals(user.getProfileName(), optionalUserDTO.get().getProfileName());
     }
 
     @Test
@@ -83,17 +78,13 @@ public class UserServiceUnitTests {
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         User user = modelMapper.map(userDTO, User.class);
 
-        String expectedUserName = "test_user";
-        String expectedEmailId = "test@gmail.com";
-        String expectedProfileName = "Test User";
-
         doReturn(Optional.of(user)).when(usersRepository).findById(12345l); // usersRepository.findById returns optional user
         doReturn(user).when(usersRepository).save(user); // usersRepository.save returns user
 
         Optional<UserDTO> optionalUserDTO = userService.updateUser(12345l, userDTO);
-        assertEquals(expectedUserName, optionalUserDTO.get().getUserName());
-        assertEquals(expectedEmailId, optionalUserDTO.get().getEmailId());
-        assertEquals(expectedProfileName, optionalUserDTO.get().getProfileName());
+        assertEquals(userDTO.getUserName(), optionalUserDTO.get().getUserName());
+        assertEquals(userDTO.getEmailId(), optionalUserDTO.get().getEmailId());
+        assertEquals(userDTO.getProfileName(), optionalUserDTO.get().getProfileName());
     }
 
     @Test

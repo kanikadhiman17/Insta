@@ -53,7 +53,6 @@ public class PostsImagesServiceImpl  implements PostsImagesService {
         if(optionalUser.isEmpty())
             return Optional.empty();
 
-        // Return PostImagesDTO
         List<Posts> postList = postsRepository.getAllByUser(optionalUser.get());
         List<PostImagesDTO> postImagesDTOList = postList.stream().map(post -> new PostImagesDTO()
                 .setCaption(post.getCaption())
