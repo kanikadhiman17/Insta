@@ -24,4 +24,24 @@ public class UserSampleData {
         return user;
     }
 
+    public static User generateFollower() {
+        User user = new User();
+        user.setId(1234l);
+        user.setUserName("follower_user");
+        user.setEmailId("test1@gmail.com");
+        user.setProfileName("Follower User");
+        user.setPassword("abc");
+        return user;
+    }
+
+    public static User generateTargetUser() {
+        User user = new User();
+        user.setId(123l);
+        user.setUserName("target_user");
+        user.setEmailId("test2@gmail.com");
+        user.setProfileName("Target User");
+        user.setPassword("abc");
+        return user;
+    }
+
 }
