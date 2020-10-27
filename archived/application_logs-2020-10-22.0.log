@@ -1,0 +1,112 @@
+16:29:22.757 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerTest - Starting UserControllerTest on zolostayss-MacBook-Pro.local with PID 28553 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:29:22.759 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerTest - No active profile set, falling back to default profiles: default
+16:29:24.995 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:29:25.852 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:29:27.740 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerTest - Started UserControllerTest in 10.224 seconds (JVM running for 11.073)
+16:29:28.135 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:29:28.140 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:29:46.024 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerTest - Starting UserControllerTest on zolostayss-MacBook-Pro.local with PID 28560 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:29:46.026 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerTest - No active profile set, falling back to default profiles: default
+16:29:47.833 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:29:48.403 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:29:49.919 [main] INFO  
+					com.java.zolo.instagram.controller.UserControllerTest - Started UserControllerTest in 9.126 seconds (JVM running for 9.943)
+16:29:50.423 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:29:50.428 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:45:36.169 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Starting ServiceControllerTest on zolostayss-MacBook-Pro.local with PID 28656 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:45:36.171 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - No active profile set, falling back to default profiles: default
+16:45:38.065 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:45:38.505 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:45:40.082 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Started ServiceControllerTest in 9.145 seconds (JVM running for 9.909)
+16:45:40.469 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:45:40.474 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:57:23.083 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Starting ServiceControllerTest on zolostayss-MacBook-Pro.local with PID 28694 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:57:23.086 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - No active profile set, falling back to default profiles: default
+16:57:25.066 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:57:25.506 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:57:27.100 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Started ServiceControllerTest in 9.248 seconds (JVM running for 10.07)
+16:57:27.509 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:57:27.517 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:58:41.223 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Starting ServiceControllerTest on zolostayss-MacBook-Pro.local with PID 28701 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:58:41.225 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - No active profile set, falling back to default profiles: default
+16:58:43.233 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:58:43.756 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:58:45.285 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Started ServiceControllerTest in 9.318 seconds (JVM running for 10.126)
+16:58:45.646 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:58:45.653 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:01:55.750 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Starting ServiceControllerTest on zolostayss-MacBook-Pro.local with PID 28710 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+17:01:55.752 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - No active profile set, falling back to default profiles: default
+17:01:57.617 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:01:58.087 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:01:59.688 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Started ServiceControllerTest in 9.174 seconds (JVM running for 9.978)
+17:02:00.073 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:02:00.078 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:03:25.213 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Starting ServiceControllerTest on zolostayss-MacBook-Pro.local with PID 28722 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+17:03:25.215 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - No active profile set, falling back to default profiles: default
+17:03:27.184 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:03:27.607 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:03:29.063 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Started ServiceControllerTest in 9.084 seconds (JVM running for 9.837)
+17:03:29.537 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:03:29.543 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:04:26.347 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Starting ServiceControllerTest on zolostayss-MacBook-Pro.local with PID 28735 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+17:04:26.348 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - No active profile set, falling back to default profiles: default
+17:04:28.209 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:04:28.667 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:04:30.090 [main] INFO  
+					com.java.zolo.instagram.controller.ServiceControllerTest - Started ServiceControllerTest in 8.984 seconds (JVM running for 9.829)
+17:04:30.486 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:04:30.492 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

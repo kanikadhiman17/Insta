@@ -49,7 +49,7 @@ public class CommentsController {
     }
 
     @GetMapping("/posts/{postId}/comments")
-    public ResponseBody showParentCommentsOnAPost(@PathVariable long postId) {
+    public ResponseBody getParentCommentsOnAPost(@PathVariable long postId) {
         String errorCode = IErrors.FAILED_TO_FETCH_PARENT_COMMENTS.getErrorCode();
         try {
             Optional<List<PostedCommentDTO>> postedCommentDTOList = commentsService.fetchParentComments(postId);
@@ -62,7 +62,7 @@ public class CommentsController {
     }
 
     @GetMapping("/comments/{commentId}")
-    public ResponseBody showReplyOnAComment(@PathVariable long commentId) {
+    public ResponseBody getRepliesOnAComment(@PathVariable long commentId) {
         String errorCode = IErrors.FAILED_TO_FETCH_REPLY_COMMENTS.getErrorCode();
         try {
             Optional<List<PostedReplyDTO>> postedReplyDTOList = commentsService.fetchReplyComments(commentId);
