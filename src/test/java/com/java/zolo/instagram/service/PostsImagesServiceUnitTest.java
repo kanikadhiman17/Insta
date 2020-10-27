@@ -48,12 +48,12 @@ public class PostsImagesServiceUnitTest {
         Images image1 = PostsImagesSampleData.generateImage1();
         Images image2 = PostsImagesSampleData.generateImage2();
 
-        given(usersRepository.findById(12345l)).willReturn(Optional.of(user));
+        given(usersRepository.findById(user.getId())).willReturn(Optional.of(user));
         given(postsRepository.save(new Posts().setUser(user).setCaption(postImagesDTO.getCaption()).setLocation(postImagesDTO.getLocation()))).willReturn(post);
         given(imagesRepository.save(new Images().setPost(post).setImageUrl(postImagesDTO.getImageURLs().get(0)))).willReturn(image1);
         given(imagesRepository.save(new Images().setPost(post).setImageUrl(postImagesDTO.getImageURLs().get(1)))).willReturn(image2);
 
-        Optional<PostImagesDTO> actualPostImagesDTO = postsImagesService.uploadPostAndImages(postImagesDTO, 12345l);
+        Optional<PostImagesDTO> actualPostImagesDTO = postsImagesService.uploadPostAndImages(postImagesDTO, user.getId());
 
         assertEquals(postImagesDTO, actualPostImagesDTO.get());
         assertEquals(postImagesDTO.getImageURLs(), actualPostImagesDTO.get().getImageURLs());
@@ -73,11 +73,11 @@ public class PostsImagesServiceUnitTest {
         images.add(image1);
         images.add(image2);
 
-        given(usersRepository.findById(12345l)).willReturn(Optional.of(user));
+        given(usersRepository.findById(user.getId())).willReturn(Optional.of(user));
         given(postsRepository.getAllByUser(user)).willReturn(posts);
         given(imagesRepository.getAllByPost(post)).willReturn(images);
 
-        Optional<List<PostImagesDTO>> actualPostImagesDTOList = postsImagesService.fetchPostsFromUser(12345l);
+        Optional<List<PostImagesDTO>> actualPostImagesDTOList = postsImagesService.fetchPostsFromUser(user.getId());
 
         assertEquals(post.getCaption(), actualPostImagesDTOList.get().get(0).getCaption());
         assertEquals(images.get(0).getImageUrl(), actualPostImagesDTOList.get().get(0).getImageURLs().get(0));
@@ -100,10 +100,10 @@ public class PostsImagesServiceUnitTest {
         images.add(image1);
         images.add(image2);
 
-        given(postsRepository.findById(100l)).willReturn(Optional.of(post));
+        given(postsRepository.findById(post.getId())).willReturn(Optional.of(post));
         given(imagesRepository.getAllByPost(post)).willReturn(images);
 
-        Optional<PostImagesDTO> actualPostImagesDTO = postsImagesService.fetchPostsFromId(100l);
+        Optional<PostImagesDTO> actualPostImagesDTO = postsImagesService.fetchPostsFromId(post.getId());
 
         assertEquals(post.getCaption(), actualPostImagesDTO.get().getCaption());
         assertEquals(images.get(0).getImageUrl(), actualPostImagesDTO.get().getImageURLs().get(0));
@@ -113,7 +113,7 @@ public class PostsImagesServiceUnitTest {
     @Test
     public void fetchPostFromId_failure() {
         given(postsRepository.findById(101l)).willReturn(Optional.empty());
-        Optional<PostImagesDTO> actualPostImagesDTO = postsImagesService.fetchPostsFromId(100l);
+        Optional<PostImagesDTO> actualPostImagesDTO = postsImagesService.fetchPostsFromId(101l);
         assertEquals(Optional.empty(), actualPostImagesDTO);
     }
 
@@ -122,10 +122,10 @@ public class PostsImagesServiceUnitTest {
         PostUpdateDTO postUpdateDTO = PostsImagesSampleData.generatePostUpdateDTO();
         Posts post = PostsImagesSampleData.generatePost();
 
-        given(postsRepository.findById(100l)).willReturn(Optional.of(post));
+        given(postsRepository.findById(post.getId())).willReturn(Optional.of(post));
         given(postsRepository.save(post)).willReturn(post);
 
-        Optional<PostImagesDTO> actualPostImagesDTO = postsImagesService.editPost( 100l, postUpdateDTO);
+        Optional<PostImagesDTO> actualPostImagesDTO = postsImagesService.editPost(post.getId(), postUpdateDTO);
         assertEquals(postUpdateDTO.getCaption(), actualPostImagesDTO.get().getCaption());
     }
 
@@ -141,9 +141,9 @@ public class PostsImagesServiceUnitTest {
 
     public void deletePost_success() {
         Posts post = PostsImagesSampleData.generatePost();
-        given(postsRepository.findById(100l)).willReturn(Optional.of(post));
-        Optional<String> deleteStatus = postsImagesService.deletePost( 100l);
-        assertEquals("Post with id "+100l+" deleted!", deleteStatus.get());
+        given(postsRepository.findById(post.getId())).willReturn(Optional.of(post));
+        Optional<String> deleteStatus = postsImagesService.deletePost(post.getId());
+        assertEquals("Post with id "+post.getId()+" deleted!", deleteStatus.get());
     }
 
     @Test

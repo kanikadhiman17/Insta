@@ -54,9 +54,9 @@ public class UserServiceUnitTest {
 
         doReturn(Optional.of(user))
                 .when(usersRepository)
-                .findById(12345l);
+                .findById(user.getId());
 
-        Optional<UserDTO> optionalUserDTO = userService.getUserFromId(12345l);
+        Optional<UserDTO> optionalUserDTO = userService.getUserFromId(user.getId());
         assertEquals(user.getUserName(), optionalUserDTO.get().getUserName());
         assertEquals(user.getEmailId(), optionalUserDTO.get().getEmailId());
         assertEquals(user.getProfileName(), optionalUserDTO.get().getProfileName());
@@ -73,45 +73,45 @@ public class UserServiceUnitTest {
     }
 
     @Test
-    public void updateUserWhenIdIsPresent() {
+    public void updateUser_success() {
         UserDTO userDTO = UserSampleData.generateUserDTO();
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         User user = modelMapper.map(userDTO, User.class);
 
-        doReturn(Optional.of(user)).when(usersRepository).findById(12345l); // usersRepository.findById returns optional user
+        doReturn(Optional.of(user)).when(usersRepository).findById(user.getId()); // usersRepository.findById returns optional user
         doReturn(user).when(usersRepository).save(user); // usersRepository.save returns user
 
-        Optional<UserDTO> optionalUserDTO = userService.updateUser(12345l, userDTO);
+        Optional<UserDTO> optionalUserDTO = userService.updateUser(user.getId(), userDTO);
         assertEquals(userDTO.getUserName(), optionalUserDTO.get().getUserName());
         assertEquals(userDTO.getEmailId(), optionalUserDTO.get().getEmailId());
         assertEquals(userDTO.getProfileName(), optionalUserDTO.get().getProfileName());
     }
 
     @Test
-    public void updateUserWhenIdIsNotPresent() {
+    public void updateUser_failure() {
         UserDTO userDTO = UserSampleData.generateUserDTO();
 
-        doReturn(Optional.empty()).when(usersRepository).findById(12345l); // usersRepository.findById returns optional user
+        doReturn(Optional.empty()).when(usersRepository).findById(123456l); // usersRepository.findById returns optional user
 
-        Optional<UserDTO> optionalUserDTO = userService.updateUser(12345l, userDTO);
+        Optional<UserDTO> optionalUserDTO = userService.updateUser(123456l, userDTO);
         assertEquals(Optional.empty(), optionalUserDTO);
     }
 
     @Test
-    public void deleteUserWhenIdIsPresent() {
+    public void deleteUser_success() {
         User user = UserSampleData.generateUser();
 
-        doReturn(Optional.of(user)).when(usersRepository).findById(12345l);
+        doReturn(Optional.of(user)).when(usersRepository).findById(user.getId());
 
-        Optional<String> deleteStatus = userService.deleteUser(12345l);
+        Optional<String> deleteStatus = userService.deleteUser(user.getId());
         assertEquals("Sorry to let you go " + user.getProfileName(), deleteStatus.get());
     }
 
     @Test
-    public void deleteUserWhenIdIsNotPresent() {
-        doReturn(Optional.empty()).when(usersRepository).findById(12345l);
+    public void deleteUser_failure() {
+        doReturn(Optional.empty()).when(usersRepository).findById(123456l);
 
-        Optional<String> deleteStatus = userService.deleteUser(12345l);
+        Optional<String> deleteStatus = userService.deleteUser(123456l);
         assertEquals(Optional.empty(), deleteStatus);
     }
 }
