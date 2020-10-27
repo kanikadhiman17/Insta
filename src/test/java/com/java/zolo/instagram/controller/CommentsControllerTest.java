@@ -23,7 +23,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 @SpringBootTest
 @AutoConfigureMockMvc
 @RunWith(SpringRunner.class)
-public class CommentsTest {
+public class CommentsControllerTest {
 
     //@Autowired
     private MockMvc mockMvc;

@@ -301,3 +301,101 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 11:51:59.374 [SpringContextShutdownHook] INFO  
 					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:11:29.326 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Starting FollowMapControllerTest on zolostayss-MacBook-Pro.local with PID 7554 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:11:29.328 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - No active profile set, falling back to default profiles: default
+16:11:31.255 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:11:31.792 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:11:33.259 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Started FollowMapControllerTest in 9.156 seconds (JVM running for 9.936)
+16:11:33.604 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:11:33.609 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:15:59.035 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Starting FollowMapControllerTest on zolostayss-MacBook-Pro.local with PID 7583 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:15:59.037 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - No active profile set, falling back to default profiles: default
+16:16:00.770 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:16:01.345 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:16:02.761 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Started FollowMapControllerTest in 8.951 seconds (JVM running for 9.896)
+16:16:03.119 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:16:03.124 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:17:45.872 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Starting FollowMapControllerTest on zolostayss-MacBook-Pro.local with PID 7595 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:17:45.875 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - No active profile set, falling back to default profiles: default
+16:17:47.615 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:17:48.079 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:17:49.549 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Started FollowMapControllerTest in 8.956 seconds (JVM running for 9.828)
+16:17:49.954 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:17:49.961 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:18:58.883 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Starting FollowMapControllerTest on zolostayss-MacBook-Pro.local with PID 7607 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:18:58.884 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - No active profile set, falling back to default profiles: default
+16:19:00.417 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:19:00.857 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:19:02.184 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Started FollowMapControllerTest in 8.523 seconds (JVM running for 9.276)
+16:19:02.389 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:19:02.395 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:20:41.968 [main] INFO  
+					com.java.zolo.instagram.controller.CommentsControllerTest - Starting CommentsControllerTest on zolostayss-MacBook-Pro.local with PID 7614 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:20:41.970 [main] INFO  
+					com.java.zolo.instagram.controller.CommentsControllerTest - No active profile set, falling back to default profiles: default
+16:20:43.903 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:20:44.412 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:20:45.807 [main] INFO  
+					com.java.zolo.instagram.controller.CommentsControllerTest - Started CommentsControllerTest in 9.061 seconds (JVM running for 9.774)
+16:20:46.289 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:20:46.294 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:21:11.455 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Starting FollowMapControllerTest on zolostayss-MacBook-Pro.local with PID 7619 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:21:11.456 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - No active profile set, falling back to default profiles: default
+16:21:13.386 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:21:13.802 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:21:15.575 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Started FollowMapControllerTest in 9.329 seconds (JVM running for 10.034)
+16:21:15.787 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:21:15.796 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:21:58.173 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Starting FollowMapControllerTest on zolostayss-MacBook-Pro.local with PID 7623 (started by zolostays in /Users/zolostays/IdeaProjects/Instagram)
+16:21:58.174 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - No active profile set, falling back to default profiles: default
+16:22:00.455 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:22:00.890 [task-1] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:22:02.384 [main] INFO  
+					com.java.zolo.instagram.controller.FollowMapControllerTest - Started FollowMapControllerTest in 9.423 seconds (JVM running for 10.179)
+16:22:02.776 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:22:02.781 [SpringContextShutdownHook] INFO  
+					com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
